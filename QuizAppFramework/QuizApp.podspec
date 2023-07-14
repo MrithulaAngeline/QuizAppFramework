@@ -12,8 +12,9 @@ Pod::Spec.new do |spec|
   spec.source       = { 
     :git => 'https://github.com/MrithulaAngeline/QuizAppFramework.git', 
     :branch => 'master',
-    :tag => '0.1.0
+    :tag => '0.1.0'
   }
+  spec.frameworks = 'UIKit', 'Foundation'
   spec.summary      = 'Quiz Questions'
   spec.source_files = '**/*.swift', '*.swift'
   spec.swift_versions = '4.0'
