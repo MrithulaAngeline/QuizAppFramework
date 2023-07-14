@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'QuizAppFramework'
+  spec.name         = 'QuizApp'
   spec.version      = '0.1.0'
   spec.authors      = { 
     'Mrithula Angeline' => 'angelinemrithula01@gmail.com',
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { 
     :git => 'https://github.com/MrithulaAngeline/QuizAppFramework.git', 
     :branch => 'master',
-    :tag => '0.1.0'
+    :tag => '0.1.0
   }
   spec.summary      = 'Quiz Questions'
   spec.source_files = '**/*.swift', '*.swift'
